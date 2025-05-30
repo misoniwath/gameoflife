@@ -6,3 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/gameoflife/",
 });
+console.log("Vite configuration loaded.");
+console.log("Plugins:", [react()]);
+console.log("Base URL:", "/gameoflife/");

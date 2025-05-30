@@ -22,6 +22,10 @@ body {
   border-radius: 10px;
   background-color: #2b2b2b;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: 
+    linear-gradient(to right, #333 1px, transparent 1px),
+    linear-gradient(to bottom, #333 1px, transparent 1px);
+  background-size: 20px 20px;
 }
 
 /* Individual cells */
@@ -30,7 +34,7 @@ body {
   background-color: #e6324b;
   border-radius: 2px;
   transition: background-color 0.3s ease;
-  border: 1px solid white;
+  border: none;
 }
 
 .Cell.active {
